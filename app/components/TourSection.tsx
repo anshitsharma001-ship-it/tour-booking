@@ -61,7 +61,7 @@ export default function TourSection() {
             <div className="card shadow h-100 position-relative">
               <span className="badge bg-danger position-absolute top-0 start-0 m-2">SALE</span>
               <Image
-                src="/Tokyo.jpg"
+                src="/tokyo.jpg"
                 alt="Tokyo"
                 width={400}
                 height={250}
