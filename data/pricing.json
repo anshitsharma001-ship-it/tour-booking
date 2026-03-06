@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Half Board",
+    "price": "$50 / Day",
+    "features": ["Hotel", "Transfers", "Museum Tickets"]
+  },
+  {
+    "id": 2,
+    "title": "All Inclusive",
+    "price": "$32 / Day",
+    "features": ["Meals", "Alcohol", "Transfers"]
+  },
+  {
+    "id": 3,
+    "title": "Excursions",
+    "price": "$68 / Day",
+    "features": ["Hotel", "Meals", "Excursions"]
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Italy", "image": "/images/italy.jpg" },
+  { "id": 2, "title": "Japan", "image": "/images/japan.jpg" },
+  { "id": 3, "title": "USA", "image": "/images/usa.jpg" },
+  { "id": 4, "title": "California", "image": "/images/california.jpg" }
+]

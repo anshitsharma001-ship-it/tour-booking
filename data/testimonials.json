@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "John Doe", "location": "New York, USA", "review": "The trip was amazing! Everything was perfectly organized." },
+  { "id": 2, "name": "Maria Rossi", "location": "Rome, Italy", "review": "I loved the Tuscany tour, unforgettable experience!" },
+  { "id": 3, "name": "Kenji Tanaka", "location": "Tokyo, Japan", "review": "Great service and wonderful destinations." }
+]

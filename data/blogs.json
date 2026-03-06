@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Top 10 Hidden Gems in Europe",
+    "date": "Jan 15, 2026",
+    "excerpt": "Discover secret spots across Europe that most tourists miss...",
+    "image": "/images/europe.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Budget Travel Tips for Asia",
+    "date": "Jan 20, 2026",
+    "excerpt": "Learn how to explore Asia without breaking the bank...",
+    "image": "/images/asia.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Must-See Landmarks in USA",
+    "date": "Jan 25, 2026",
+    "excerpt": "From the Statue of Liberty to the Grand Canyon, here are the top landmarks...",
+    "image": "/images/usa-landmarks.jpg"
+  }
+]
