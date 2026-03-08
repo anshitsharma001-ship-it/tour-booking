@@ -2949,9 +2949,9 @@ hr {
 
 
 
-.desktop-hamburger {
+/* .desktop-hamburger {
   display: none;   
-}
+} */
 
 .desktop-navs-menu {
   display: flex;
@@ -3302,7 +3302,7 @@ hr {
    .desktop-hamburger {
     position: absolute;
     left: 250px;
-    bottom: 720px;
+    bottom: 695px;
   }
 
   .header-left, .desktop-hamburger {
@@ -3314,6 +3314,9 @@ hr {
     display: none;
   }
  
+   .destination-card {
+    margin-right: 80px;
+  }
   }
 
  
