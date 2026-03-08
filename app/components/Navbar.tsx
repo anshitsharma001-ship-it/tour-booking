@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
           <i className="fab fa-facebook-f"></i>
           <i className="fab fa-instagram"></i>
         </div>
-      </div>
+      </div>  
 
       <div className={`main-header ${isFixed ? "fixed animate" : ""}`}>
         <div className="header-left">
