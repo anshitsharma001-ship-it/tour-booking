@@ -66,7 +66,7 @@ const StartVacation: React.FC = () => {
 
           <Link href="/search">
             <motion.button
-              className="orange-btn mt-4 px-5 py-3"
+              className="orange-btn-1 mt-4 px-5 py-3"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.3, duration: 0.6 }}

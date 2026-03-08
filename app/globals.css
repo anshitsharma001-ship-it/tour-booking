@@ -1168,7 +1168,7 @@
   margin: 0 5px;
 }
 
-.search-btn {
+.search-btn-1 {
   background-color: rgb(240, 99, 47);
   color: #fff;
   padding: 15px 40px;
@@ -1178,7 +1178,7 @@
   transition: background-color 0.3s ease;
 }
 
-.search-btn:hover {
+.search-btn-1:hover {
   background-color: #e69500;
 }
 
@@ -1558,6 +1558,17 @@ html, body {
 
 }
 
+.orange-btn-1 {
+  background-color: #282448 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+}
+.orange-btn-1:hover {
+  background-color: #d16015 !important;
+  color: #fff !important;
+}
+
 .orange-btn {
   background-color: #282448 !important;
   color: #fff !important;
@@ -1568,7 +1579,6 @@ html, body {
   background-color: #d16015 !important;
   color: #fff !important;
 }
-
 .vacation1 {
   max-width: 900px !important;
   font-weight: lighter;
@@ -2502,7 +2512,7 @@ hr {
     color: #ff6600;
   }
 
-  .search-btn {
+  .search-btn-1 {
     display: none;
   }
 
@@ -3150,4 +3160,158 @@ hr {
     margin-right: 90px;
     margin-top: -40px;
   }
+
+  .orange-btn {
+    margin-left: 142px;
+  }
+
+  
+}
+
+@media screen and (max-width: 380px) {
+  .desktop-hamburger {
+    position: absolute;
+    left: 250px;
+    top: 15px;
+  }
+  
+  .logo-img {
+    margin-top: 40px;
+  }
+
+  .trip-plan {
+    max-width: 200px;
+    font-size: 20px;
+  
+  }   
+  
+  .top-bar {
+    display: none;
+  }
+
+  .orange-btn {
+    margin-left: 120px;
+  }
+
+  .form-select {
+    max-width: 40px;
+  }
+ 
+  .destination-card {
+    margin-right: 80px;
+  }
+
+   .input-group {
+    max-width: 160px;
+  }
+  
+  
+}
+
+.search-section{
+  padding:40px 20px;
+  background:#f8f9fa;
+}
+
+.search-container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.search-bar{
+  display:flex;
+  gap:15px;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.search-item{
+  display:flex;
+  align-items:center;
+  background:#fff;
+  border:1px solid #ddd;
+  padding:10px 12px;
+  border-radius:6px;
+  flex:1;
+  min-width:200px;
+}
+
+.search-item input,
+.search-item select{
+  border:none;
+  outline:none;
+  width:100%;
+  font-size:14px;
+}
+
+.icon{
+  margin-right:8px;
+  color:#777;
+}
+
+.red{
+  color:#ff4d4d;
+}
+
+.blue{
+  color:#007bff;
+}
+
+.search-btn{
+  background:#ff6600;
+  color:#fff;
+  border:none;
+  padding:12px 22px;
+  border-radius:6px;
+  font-weight:bold;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  cursor:pointer;
+}
+
+.search-btn:hover{
+  background:#e65c00;
+}
+
+@media (max-width:1024px){
+
+.search-item{
+  min-width:180px;
+}
+
+}
+
+@media (max-width:768px){
+
+.search-bar{
+  flex-direction:column;
+}
+
+.search-item{
+  width:100%;
+}
+
+.search-btn{
+  width:100%;
+  justify-content:center;
+}
+
+}
+
+@media (max-width:480px){
+
+.search-section{
+  padding:30px 15px;
+}
+
+}
+
+@media (max-width:380px){
+
+.search-item{
+  padding:8px 10px;
+}
+
 }

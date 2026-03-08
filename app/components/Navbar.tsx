@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
         </nav>
 
         <div className="header-right">
-          <Link href="/search" className="search-btn">
+          <Link href="/search" className="search-btn-1">
             Search Travel
           </Link> 
         </div>
