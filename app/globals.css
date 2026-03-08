@@ -2689,14 +2689,14 @@ hr {
     text-align: center;
   }
 
-  .destination-card.first-second,
+  /* .destination-card.first-second,
   .destination-card:nth-child(4) {
     margin-left: 80px;
   }
 
   .japan-card {
     margin-left: 80px;
-  }
+  } */
   .ourteam {
     font-size: 16px;
     text-align: center;
