@@ -3315,3 +3315,15 @@ hr {
  
 }
 
+@media screen and (max-width: 411px) {
+  .desktop-hamburger {
+    position: absolute;
+    left: 250px;
+    bottom: 695px;
+  }
+
+
+  
+
+ 
+}
