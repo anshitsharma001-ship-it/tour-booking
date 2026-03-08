@@ -2418,10 +2418,7 @@ hr {
 
   
 
-  .dreamvacation h2 {
-    
-    margin-left: 22%;
-  }
+ 
 
 
 
@@ -2705,10 +2702,7 @@ hr {
     text-align: center;
   }
 
-  .orange-btn {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
+  
 
   .hero-text {
     font-size: 18px;
@@ -2724,6 +2718,10 @@ hr {
     font-size: 0.9rem;
     padding: 0.6rem 1rem;
   }
+
+  
+
+  
 
   .input-group-text {
     font-size: 0.9rem;
@@ -2831,9 +2829,7 @@ hr {
 
   
 
-  .dreamvacation p {
-    text-align: center !important;
-  }
+ 
 
   .adventuretravel {
     font-weight: 800;
@@ -3045,7 +3041,16 @@ hr {
     font-size: 70px;
   }
 
- 
+  
+
+  .vacation {
+    text-align: center !important;
+  }
+
+  .dreamvacation h2 {
+    text-align: center !important;
+  
+  }
 
   .destination-images  {
     display: grid;
@@ -3054,7 +3059,13 @@ hr {
   .destination-card {
     max-width: 100% !important;
   }
+
+  .destination-images {
+    margin-left: 10px;
+    
+  }
   
+
   .rounded-circle {
     max-width: 100px;
     max-height: 100px;
@@ -3315,7 +3326,7 @@ hr {
   }
  
    .destination-card {
-    margin-right: 80px;
+    margin-right: 100px;
   }
   }
 
