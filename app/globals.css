@@ -1535,10 +1535,10 @@ html, body {
   font-size: 50px;
 }
 
-.dreamvacation {
+/* .dreamvacation {
   
   margin-left: 20px;
-}
+} */
 
 .trip-plan {
   text-align: left !important;
@@ -3060,10 +3060,7 @@ hr {
     max-width: 100% !important;
   }
 
-  .destination-images {
-    margin-left: 10px;
-    
-  }
+  
   
 
   .rounded-circle {
