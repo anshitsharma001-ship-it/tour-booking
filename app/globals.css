@@ -3315,7 +3315,7 @@ hr {
  
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 410px) {
   .desktop-hamburger {
     position: absolute;
     left: 250px;
