@@ -3177,7 +3177,6 @@ hr {
     padding-bottom: 30px;
   }
 
-  /* ✅ Search button + hamburger alignment fix */
   .header-right {
     display: flex;
     align-items: center;
