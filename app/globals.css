@@ -2958,9 +2958,9 @@ hr {
   height: auto;
 }
 
-/* .nav-menu{
+.nav-menu{
   display: none;
-} */
+}
 
 
 
@@ -2995,9 +2995,9 @@ hr {
 
 
   /* Wrapper padding adjust */
-  .desktop-navs-wrapper {
+  /* .desktop-navs-wrapper {
     padding: 30px 40px;
-  }
+  } */
 
   /* Show hamburger */
   .desktop-hamburger {
@@ -3332,14 +3332,18 @@ margin-top:15px;
   font-size: 4rem;
 }
 
-.nav-menu a{
+/* .nav-menu a{
  font-size: 9px;
-} 
+}  */
 
-.nav-dot {
+
+/* .nav-dot {
+  display: none;
+} */
+
+.nav-menu {
   display: none;
 }
-
 
 }
 
