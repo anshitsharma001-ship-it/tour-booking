@@ -1569,7 +1569,7 @@ html, body {
   color: #fff !important;
 }
 
-.orange-btn {
+.more-info-btn {
   background-color: #282448 !important;
   color: #fff !important;
   border: none;
@@ -2350,7 +2350,7 @@ hr {
     text-align: center;
   }
 
-  .orange-btn {
+  .more-info-btn {
     font-size: 12px;
     padding: 8px 16px;
   }
@@ -2732,9 +2732,9 @@ hr {
     text-align: center;
   }
 
-  .orange-btn {
+  .more-info-btn{
     font-size: 0.9rem;
-    padding: 0.6rem 1rem;
+    margin-left: 140px;
   }
 
   
@@ -3070,6 +3070,17 @@ hr {
   
   }
 
+  .dreamvacation h5 {
+    text-align: center !important;
+  }
+
+  .dreamvacation p {
+    text-align: center !important;
+  }
+
+ 
+  
+
   .destination-images  {
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -3097,6 +3108,10 @@ hr {
  
   .search-section{
   padding:30px 15px;
+}
+
+.dreamvacationsection h2 {
+  text-align: center !important;
 }
 
 }
@@ -3325,9 +3340,7 @@ margin-top:15px;
     display: none;
   }
 
-  .orange-btn {
-    margin-left: 120px;
-  }
+  
 
   .form-select {
     max-width: 40px;
@@ -3344,7 +3357,49 @@ margin-top:15px;
   .search-item{
   padding:8px 10px;
 }
+
+  .explore-world h1 {
+    font-size: 50px;
 }
+
+.dreamvacation h2 {
+  margin-left: 45px;
+}
+
+.more-info-btn {
+  margin-left: -20px;
+}
+
+.dreamvacationsection h2 {
+  margin-left: 75px;
+}
+
+
+}
+
+@media screen and (max-width: 320px) {
+  .dreamvacationsection h2 {
+    margin-left: 49px;
+  }
+
+  .dreamvacationsection p {
+    font-size: 0.9rem;
+  }
+
+  .TravelItineraries h1 {
+    font-size: 3rem;
+  }
+
+  .review p {
+    font-size: 0.9rem;
+    max-width: 150px;
+  }
+
+  .rounded-circle {
+    margin-top: -30px;
+  }
+}
+
 
 
 

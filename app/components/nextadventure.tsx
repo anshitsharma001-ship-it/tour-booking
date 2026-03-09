@@ -15,8 +15,9 @@ export default function NextAdventure() {
     >
      
 
-      <div className="dreamvacation" style={{ position: "relative", zIndex: 2 }}>
-        <motion.h5
+      <div className="dreamvacationsection" style={{ position: "relative", zIndex: 2 }}>
+       <div className=" container ">
+         <motion.h5
           className="orange-heading mb-2 mt-5 pt-5"
           style={{ fontFamily: "cursive", fontSize: "1.5rem" }}
           initial={{ opacity: 0, y: -20 }}
@@ -25,6 +26,7 @@ export default function NextAdventure() {
         >
           Next Adventure
         </motion.h5>
+       
 
         <motion.h2
           className="trip-plan display-5 fw-bold mb-4 pt-3"
@@ -44,6 +46,7 @@ export default function NextAdventure() {
         >
           We have compiled a list of top destinations across the globe, scoured the world for the most alluring and fascinating places to visit. From the beautiful beaches of the Caribbean to the majestic mountains of Europe and the vibrant cities of Asia, our destination list has something for everyone.
         </motion.p>
+        </div>
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ export default function DestinationsIntro() {
   return (
     <section className="destinations-section py-16 text-dark relative overflow-hidden">
   
-      <div className="dreamvacation text-left relative z-10">
+      <div className="dreamvacation text-left relative z-10 container">
         <motion.h5
           className="orange-heading mb-2 mt-5 pt-5"
           style={{ fontFamily: "cursive", fontSize: "1.5rem" }}
@@ -40,7 +40,7 @@ export default function DestinationsIntro() {
 
         <Link href="/more-info">
           <motion.button
-            className="mt-4 px-4 py-2 mb-5 fw-bold orange-btn"
+            className="mt-4 px-4 py-2 mb-5 fw-bold more-info-btn"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
