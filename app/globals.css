@@ -3060,6 +3060,7 @@ hr {
   }
 
   
+  
 
   .vacation {
     text-align: center !important;
@@ -3110,9 +3111,9 @@ hr {
   padding:30px 15px;
 }
 
-.dreamvacationsection h2 {
+/* .dreamvacationsection h2 {
   text-align: center !important;
-}
+} */
 
 }
 
@@ -3244,7 +3245,6 @@ hr {
     margin-bottom: 75px;
   }
 
-  
 }
 
 @media screen and (max-width:1440px) {
@@ -3315,6 +3315,18 @@ margin-top:15px;
 
 .overlay-section {
   margin-bottom: 115px;
+}
+
+.dreamvacationsection h2 {
+  text-align: center !important;
+}
+
+.destination-images {
+  margin-right: 70px;
+}
+
+.explore-world h1 {
+  font-size: 4rem;
 }
 
 }
