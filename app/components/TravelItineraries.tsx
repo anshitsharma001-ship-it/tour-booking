@@ -14,7 +14,7 @@ export default function TravelItineraries() {
     >
       <div className="text-center pt-5 mt-4">
         <motion.h1
-          className="mt-5 text-4xl font-bold text-dark-800 tracking-wide relative inline-block"
+          className=" text-4xl font-bold text-dark-800 tracking-wide relative inline-block"
           initial={{ opacity: 0, y: 50 }}      
           whileInView={{ opacity: 1, y: 0 }}  
           transition={{ duration: 0.8, ease: "easeOut" }}

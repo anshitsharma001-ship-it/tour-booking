@@ -921,28 +921,7 @@
 }
 
 
-.top-bar {
-  background-color: #003366; 
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 8px 20px;
-  font-size: 14px;
-}
 
-.top-bar-right i {
-  margin-left: 12px;
-  cursor: pointer;
-}
-
-.main-header {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
-}
 
 .header-left {
   display: flex;
@@ -999,31 +978,6 @@
   background-color: #e69500;
 }
 
-.top-bar {
-  background-color: #003366;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 20px;
-  font-size: 14px;
-}
-
-.top-bar-right i {
-  margin-left: 12px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.main-header {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
-  transition: all 0.3s ease;
-}
 
 
 .fixed {
@@ -2237,6 +2191,8 @@ hr {
   color:#007bff;
 }
 
+
+
 .search-btn{
   background:#ff6600;
   color:#fff;
@@ -2692,6 +2648,19 @@ hr {
   margin-left: 20px;
 }
 
+
+
+.desktop-hamburger {
+  display: none;
+}
+
+.dreamvacationsection h2 {
+  text-align: center !important;
+  margin-left: 110px;
+} 
+.dreamvacationsection p {
+  text-align: center !important;
+}
 }
 
 .date  {
@@ -2887,11 +2856,7 @@ hr {
 
  
 
-  .icon-travel-section {
-    background-color: #fff;
-    padding-top: 5%;
-    padding-bottom: 15%;
-  }
+
 
   
   .icon-travel-container {
@@ -2958,8 +2923,9 @@ hr {
   height: auto;
 }
 
-.nav-menu{
-  display: none;
+
+.nav-menu {
+  display: none !important;
 }
 
 
@@ -3124,7 +3090,6 @@ hr {
 /* Section spacing */
 .icon-travel-section {
   padding-top: 50px;
-  padding-bottom: 130px;
   background: #ffffff; /* optional */
 }
 
@@ -3207,7 +3172,6 @@ hr {
   .banner-icon-top {
     width: 60px;
     height: auto;
-    margin-left: -12px;
   }
  
   .overlay-section {
@@ -3229,9 +3193,9 @@ hr {
 }
 
 @media screen and (max-width: 1920px) {
-  .start-vacation-section h1 {
+  /* .start-vacation-section h1 {
     margin-left: -25%;
-  }
+  } */
 
   .start-vacation-section p {
     margin-left: -25%;
@@ -3401,8 +3365,17 @@ margin-top:15px;
 .dreamvacationsection h2 {
   margin-left: 75px;
 }
+.top-bar {
+    display:  none;
+  }
 
-
+  .desktop-hamburger {
+   position: absolute;
+   top: -5px;
+  }
+  .main-header {
+    padding: 20px 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -3428,8 +3401,30 @@ margin-top:15px;
   }
 
    .logo-img {
-    width: 70px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
+  }
+
+  .desktop-hamburger {
+   position: absolute;
+   left: 200px;
+   top: 1px;
+  }
+
+  .main-header {
+    padding: 20px 0;
+  }
+
+  .top-bar {
+    display:  none;
+  }
+
+  .destination-images {
+    margin-left: 90px;
+  }
+
+  .ServiceSection img {
+    max-height: 500px;
   }
 }
 
