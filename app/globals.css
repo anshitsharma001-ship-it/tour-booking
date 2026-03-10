@@ -3316,7 +3316,7 @@ margin-top:15px;
 } */
 
 .nav-menu {
-  display: none;
+  display: none !important;
 }
 
 }
@@ -3386,6 +3386,11 @@ margin-top:15px;
   .main-header {
     padding: 20px 0;
   }
+
+  
+.nav-menu {
+  display: none !important;
+}
 }
 
 @media screen and (max-width: 320px) {
@@ -3436,21 +3441,26 @@ margin-top:15px;
   .ServiceSection img {
     max-height: 500px;
   }
+  
+.nav-menu {
+  display: none !important;
+}
 }
 
-
-
-@media screen and (max-width: 689px) {
-
+@media screen and (max-width: 575px) {
   .nav-menu {
-    display:  none;
-    padding: 20px 0;
+    display: none !important;
   }
+} 
 
-  .desktop-hamburger {
-    position: absolute;
+
+@media screen and (max-width: 666px) {
+  .nav-menu {
+    display: none !important;
   }
-}
+} 
+
+
 
 
 
