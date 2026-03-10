@@ -5,10 +5,13 @@ import Navs from "./navs";
 
 const Navbar: React.FC = () => {
   const [isFixed, setIsFixed] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const topBarHeight = 40;
+      const topBar = document.querySelector(".top-bar") as HTMLElement;
+      const topBarHeight = topBar ? topBar.offsetHeight : 0;
+
       if (window.scrollY >= topBarHeight) {
         setIsFixed(true);
       } else {
