@@ -2006,13 +2006,13 @@ html, body {
   transition: background-color 0.3s ease;
 }
 
-.footer-heading {
+/* .footer-heading {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 1.4;
   margin-bottom: 20px;
   color: #fff; 
-}
+} */
 
 .footer-address p,
 .footer-contact p {
@@ -2094,13 +2094,13 @@ html, body {
 
 .footer-heading {
   font-weight: 900;
-  font-size: 1.6rem;
+  font-size: 3rem;
   color: #fff; 
   text-align: left;
 }
 
 .footer-contact-heading {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #fff; 
   margin-bottom: 0.8rem;
@@ -2111,6 +2111,7 @@ html, body {
   margin: 0.3rem 0;
   color: #ccc;
   text-align: left;
+  font-size: 1.2rem;
 }
 
 .footer-link {
@@ -2776,8 +2777,9 @@ hr {
   }
 
   .trip-plan {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
+    margin-right: 110px;
   }
 
   .trip-plan1 {
@@ -3265,7 +3267,7 @@ font-size:18px !important;
 .trip-plan{
 font-size:28px;
 line-height:1.3;
-max-width:100%;
+
 }
 
 .dreamvacation h2 {
@@ -3318,9 +3320,11 @@ margin-top:15px;
 .nav-menu {
   display: none !important;
 }
-.elementor-widget-container p {
-  max-width: 200px;
-}
+
+  .review p {
+    font-size: 0.9rem;
+    max-width: 150px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -3385,10 +3389,13 @@ margin-top:15px;
    position: absolute;
    top: -5px;
   }
-  .main-header {
+  /* .main-header {
     padding: 20px 0;
-  }
+  } */
 
+  .explore-world h1 {
+    margin-top: 20px;
+  }
   
 .nav-menu {
   display: none !important;
@@ -3467,7 +3474,7 @@ margin-top:15px;
 
 
 
-@media screen and(max-width: 480px) {
+@media (max-width: 480px) {
   .container {
     padding: 0 15px;
   }

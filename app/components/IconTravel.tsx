@@ -11,7 +11,7 @@ const logos = [
 
 const IconTravel: React.FC = () => {
   return (
-    <section className="icon-travel-section">
+    <section className="icon-travel-section pb-5">
       <div className="icon-travel-container">
         {logos.map((logo, index) => (
           <div key={index} className="icon-travel-item">
