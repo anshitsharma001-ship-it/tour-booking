@@ -2930,12 +2930,7 @@ hr {
 
 
 
-
-
-
-/* .desktop-hamburger {
-  display: none;   
-} */
+ 
 
 .desktop-navs-menu {
   display: flex;
@@ -2992,6 +2987,21 @@ hr {
   .desktop-hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
   }
+  .desktop-hamburger {
+    position: absolute;
+
+    top: -1px;
+  }
+
+  .logo-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .top-bar {
+    display: none;
+  }
+
+  
 
   /* Hide menu initially */
   .desktop-navs-menu {
@@ -3429,6 +3439,18 @@ margin-top:15px;
 }
 
 
+
+@media screen and (max-width: 689px) {
+
+  .nav-menu {
+    display:  none;
+    padding: 20px 0;
+  }
+
+  .desktop-hamburger {
+    position: absolute;
+  }
+}
 
 
 
