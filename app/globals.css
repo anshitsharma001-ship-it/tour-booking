@@ -3319,6 +3319,10 @@ margin-top:15px;
   display: none !important;
 }
 
+  .review p {
+    font-size: 0.9rem;
+    max-width: 150px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -3391,6 +3395,11 @@ margin-top:15px;
 .nav-menu {
   display: none !important;
 }
+  .review p {
+    font-size: 0.9rem;
+    max-width: 150px;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
