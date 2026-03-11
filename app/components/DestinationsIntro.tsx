@@ -7,7 +7,9 @@ export default function DestinationsIntro() {
     <section className="destinations-section py-16 text-dark relative overflow-hidden">
   
       <div className="dreamvacation text-left relative z-10 container">
-        <motion.h5
+        <div className="row">
+          <div className="col-lg-12">
+            <motion.h5
           className="orange-heading mb-2 mt-5 pt-5"
           style={{ fontFamily: "cursive", fontSize: "1.5rem" }}
           initial={{ opacity: 0, y: -20 }}
@@ -16,8 +18,12 @@ export default function DestinationsIntro() {
         >
           Dream Vacation Destination
         </motion.h5>
+          </div>
+        </div>
 
-        <motion.h2
+        <div className="row">
+          <div className="col-lg-12">
+            <motion.h2
           className="trip-plan display-5 fw-bold mb-4 pt-3"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,6 +31,8 @@ export default function DestinationsIntro() {
         >
           Plan the Trip of a Lifetime with Ease
         </motion.h2>
+          </div>
+        </div>
 
         <motion.p
           className="vacation lead pt-3"

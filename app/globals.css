@@ -2266,16 +2266,7 @@ hr {
     text-align: center;
   }
 
-  .trip-plan {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .trip-plan1 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
+  
   .vacation {
     font-size: 0.85rem;
     text-align: center;
@@ -2657,7 +2648,7 @@ hr {
 
 .dreamvacationsection h2 {
   text-align: center !important;
-  margin-left: 110px;
+  /* margin-left: 110px; */
 } 
 .dreamvacationsection p {
   text-align: center !important;
@@ -2783,7 +2774,6 @@ hr {
   }
 
   .trip-plan1 {
-    font-size: 2rem;
     text-align: center;
   }
 
@@ -3344,9 +3334,9 @@ margin-top:15px;
   
   }   
   
-  .dreamvacation h2 {
+  /* .dreamvacation h2 {
     margin-left: 60px;
-  }
+  } */
   /* .top-bar {
     display: none;
   } */
@@ -3373,17 +3363,17 @@ margin-top:15px;
     font-size: 50px;
 }
 
-.dreamvacation h2 {
+/* .dreamvacation h2 {
   margin-left: 45px;
-}
+} */
 
 .more-info-btn {
   margin-left: -20px;
 }
 
-.dreamvacationsection h2 {
+/* .dreamvacationsection h2 {
   margin-left: 75px;
-}
+} */
 .top-bar {
     display:  none;
   }
@@ -3404,12 +3394,15 @@ margin-top:15px;
   display: none !important;
 }
  
+.destinations-section h2 {
+  margin-right: -90px;
+}
 }
 
 @media screen and (max-width: 320px) {
-  .dreamvacationsection h2 {
+  /* .dreamvacationsection h2 {
     margin-left: 49px;
-  }
+  } */
 
   .dreamvacationsection p {
     font-size: 0.9rem;
@@ -3606,7 +3599,7 @@ display:none;
   
 @media (max-width: 400px) {
   .trip-plan {
-    margin-right: -0px;
+    /* margin-right: -0px; */
     font-size: 1.2rem;
   }
 
