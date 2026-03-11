@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Navs() {
+export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
