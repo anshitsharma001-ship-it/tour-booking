@@ -21,7 +21,7 @@ const StartVacation: React.FC = () => {
       <div className="container explore-world relative z-10">
         <div className="left-align-wrapper">
           <motion.h1
-            className="heading mb-3"
+            className="heading mb-3 mt-4"
             style={{
               color: "#fff",
               fontWeight: "900",
