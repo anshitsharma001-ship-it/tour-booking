@@ -18,12 +18,10 @@ export default function FooterSection() {
             <p>1080 Brickell Ave, Miami - Florida, U.S.A</p>
             <p>info@travel.com</p>
             <p>+01 483 593 284</p>
-            {/* <p></p> */}
           </div>
 
         </div>
-{/* 
-        <hr className="border-light" /> */}
+{/*<hr className="border-light" /> */}
 
         <div className="row pt-5">
           <div className="col-lg-12 pt-5">
