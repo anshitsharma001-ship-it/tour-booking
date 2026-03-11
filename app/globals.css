@@ -2316,6 +2316,55 @@ background:#d57943;
 .menu-links a:hover{
 background:#1b2747;
 }
+
+/* SECTION */
+
+.destinations-section{
+padding-left:0;
+padding-right:0;
+}
+
+/* WRAPPER */
+
+.dreamvacation{
+position:relative;
+z-index:10;
+}
+
+/* HEADING */
+
+.orange-heading{
+color:#e67e22;
+font-family:cursive;
+font-size:1.5rem;
+}
+
+/* MAIN TITLE */
+
+.trip-plan{
+font-size:2.8rem;
+line-height:1.2;
+}
+
+/* PARAGRAPH */
+
+.vacation{
+max-width:700px;
+}
+
+/* BUTTON */
+
+.more-info-btn{
+background:#24345c;
+color:white;
+border:none;
+border-radius:4px;
+transition:0.3s;
+}
+
+.more-info-btn:hover{
+background:#1b2747;
+}
   
 
 @media screen and (max-width: 768px) {
@@ -2735,7 +2784,7 @@ background:#1b2747;
   justify-content:center;
 }
 
-.dreamvacation h2 {
+/* .dreamvacation h2 {
   text-align: left !important;
   
 }
@@ -2750,7 +2799,7 @@ background:#1b2747;
 
 .destinations-section {
   margin-left: 20px;
-}
+} */
 
 
 
