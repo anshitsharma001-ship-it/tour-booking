@@ -15,7 +15,6 @@ export default function Navs() {
         <span></span>
         <span></span>
       </div>
-      <></>
 
       {/* sliding menu */}
       <div className={`mobile-menu ${open ? "active" : ""}`}>

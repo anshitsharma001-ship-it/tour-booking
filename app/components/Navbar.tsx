@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import Navs from "./navs";
+import Nav from "./nav";
 
 const Navbar: React.FC = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
         </div>
         </div>
 
-        <Navs />
+        <Nav />
       </div>
       </div>
     </header>
