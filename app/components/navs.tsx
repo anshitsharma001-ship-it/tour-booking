@@ -6,37 +6,40 @@ import Link from "next/link";
 export default function Navs() {
   const [open, setOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setOpen(!open);
-  };
-
   return (
-    <div className="desktop-navs-wrapper">
+    <div className="mobile-nav">
 
-      <div className="desktop-navs-top">
-
-        <div
-          className={`desktop-hamburger ${open ? "active" : ""}`}
-          onClick={toggleMenu}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
+      {/* hamburger */}
+      <div className="hamburger" onClick={() => setOpen(true)}>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
+      {/* sliding menu */}
+      <div className={`mobile-menu ${open ? "active" : ""}`}>
 
-      <nav className={`desktop-navs-menu ${open ? "show" : ""}`}>
+        <div className="menu-header">
+          <img src="/love-travel-logo.png" alt="logo" />
 
-        <Link href="/">Home</Link>
-        <Link href="/search">Travel</Link>
-        <Link href="/about">Pages</Link>
-        <Link href="/shop">Shop</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/contact-us">Contact Us</Link>
+          <button
+            className="close-btn"
+            onClick={() => setOpen(false)}
+          >
+            ✕
+          </button>
+        </div>
 
-      </nav>
+        <nav className="menu-links">
+          <Link href="/">Home</Link>
+          <Link href="/search">Travel</Link>
+          <Link href="/about">Pages</Link>
+          <Link href="/shop">Shop</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/contact-us">Contact Us</Link>
+        </nav>
+
+      </div>
 
     </div>
   );

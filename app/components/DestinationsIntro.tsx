@@ -6,7 +6,7 @@ export default function DestinationsIntro() {
   return (
     <section className="destinations-section py-16 text-dark relative overflow-hidden">
   
-      <div className="dreamvacation text-left relative z-10 container">
+      <div className="dreamvacation text-center text-lg-start relative z-10 container">
         <div className="row">
           <div className="col-lg-12">
             <motion.h5
