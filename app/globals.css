@@ -1491,7 +1491,7 @@ html, body {
   max-width: 500px;
   font-weight: bolder;
   font-size: 50px;
-}
+} 
 
 /* .dreamvacation {
   
@@ -2266,7 +2266,16 @@ hr {
     text-align: center;
   }
 
-  
+  .trip-plan {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .trip-plan1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   .vacation {
     font-size: 0.85rem;
     text-align: center;
@@ -2379,10 +2388,7 @@ hr {
     font-size: 35px;
   }
 
-  /* .nav-menu {
-    display: none !important;
-  } */
-
+ 
   
 
   
@@ -2438,7 +2444,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   padding-top: 10px;
   padding-bottom: 15px;
 }
@@ -2653,6 +2659,14 @@ hr {
 .dreamvacationsection p {
   text-align: center !important;
 }
+
+.nav-dot {
+  display: none;
+}
+
+.nav-menu {
+  padding-left: 50px;
+}
 }
 
 .date  {
@@ -2770,10 +2784,11 @@ hr {
   .trip-plan {
     font-size: 1.2rem;
     text-align: center;
-    margin-right: 110px;
+    /* margin-right: 110px; */
   }
 
   .trip-plan1 {
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -3329,7 +3344,7 @@ margin-top:15px;
   }
 
   .trip-plan {
-    max-width: 200px;
+    /* max-width: 200px; */
     font-size: 20px;
   
   }   
@@ -3394,9 +3409,6 @@ margin-top:15px;
   display: none !important;
 }
  
-.destinations-section h2 {
-  margin-right: -90px;
-}
 }
 
 @media screen and (max-width: 320px) {
@@ -3567,15 +3579,15 @@ cursor:pointer;
 
 @media screen and (max-width:768px){
 
-.top-bar{
+/* .top-bar{
 display:none;
-}
+} */
 
 .hamburger{
 display:block;
 }
 
-.nav-menu{
+/* .nav-menu{
 position:absolute;
 top:70px;
 left:0;
@@ -3583,9 +3595,9 @@ width:100%;
 background:white;
 flex-direction:column;
 align-items:center;
-display:none;
+
 padding:20px 0;
-}
+} */
 
 .nav-menu.open{
 display:flex;
