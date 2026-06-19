@@ -1,21 +1,21 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/Navbar"; 
-import FooterSection from "./components/FooterSection"; 
+import { ClerkProvider } from "@clerk/nextjs";
 
-export const metadata: Metadata = {
-  title: "Travel Website",
-  description: "Travel beyond your imagination",
+export const metadata = {
+  title: "RishtaQHub",
+  description: "Find your perfect life partner",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
-      <body>
-        <Navbar />  
-        <main>{children}</main>
-        <FooterSection />
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body>{children}</body>
+      </html>
+    </ClerkProvider>
   );
 }
