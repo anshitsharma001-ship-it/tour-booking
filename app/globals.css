@@ -10,3 +10,16 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+
+a {
+  text-decoration: none;
+}
+
+
+a:hover,
+button:hover {
+  text-decoration: none;
+}
+
+

@@ -1,107 +1,143 @@
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+const fadeUp = {
+hidden: {
+opacity: 0,
+y: 40,
+},
+show: {
+opacity: 1,
+y: 0,
+transition: {
+duration: 0.8,
+},
+},
+};
+
+const stagger = {
+hidden: {},
+show: {
+transition: {
+staggerChildren: 0.2,
+},
+},
+};
 
 export default function Hero() {
-  return (
-    <section className="bg-gradient-to-b from-blue-50 via-white to-white py-16">
-      <div className="max-w-6xl mx-auto px-5">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Left Content */}
-          <div>
-            <span className="inline-block bg-blue-100 text-blue-900 px-4 py-2 rounded-full text-sm font-medium">
-              Trusted Matrimonial Platform
-            </span>
+return ( <section className="bg-gradient-to-b from-[#FAF8F3] via-white to-white py-4 overflow-hidden"> <div className="max-w-7xl mx-auto px-5">
 
-            <h1 className="mt-6 text-5xl md:text-6xl font-bold text-slate-900 leading-tight">
-              Find Your Perfect{" "}
-              <span className="text-blue-900">
-                Life Partner
-              </span>
-            </h1>
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-            <p className="mt-6 text-lg text-slate-600 max-w-xl">
-              Join thousands of families who trust RishtaQHub to find
-              meaningful and genuine relationships through verified profiles.
-            </p>
+      {/* Left Content */}
 
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Link
-                href="/profile/create"
-                className="bg-blue-900 text-white px-8 py-4 rounded-xl text-center font-semibold hover:bg-blue-800 transition"
-              >
-                Create Profile
-              </Link>
+      <motion.div
+        variants={stagger}
+        initial="hidden"
+        animate="show"
+      >
 
-              <Link
-                href="/search"
-                className="border border-slate-300 px-8 py-4 rounded-xl text-center font-semibold hover:bg-slate-100 transition"
-              >
-                Search Profiles
-              </Link>
-            </div>
+        <motion.span
+          variants={fadeUp}
+          className="inline-flex items-center bg-[#F5E6B3] text-[#8A6A00] px-5 py-2 rounded-full text-sm font-semibold"
+        >
+          Trusted Premium Matrimonial Platform
+        </motion.span>
 
-            <div className="mt-8 flex flex-wrap items-center gap-8 text-sm text-slate-600">
-              <div>
-                <span className="font-bold text-slate-900 text-xl">
-                  50K+
-                </span>
-                <p>Profiles</p>
-              </div>
+        <motion.h1
+          variants={fadeUp}
+          className="mt-8 text-5xl md:text-7xl font-bold leading-tight text-[#0F172A]"
+        >
+          Find a Life Partner,
+          <br />
+          <span className="text-[#D4AF37]">
+            Not Just a Match
+          </span>
+        </motion.h1>
 
-              <div>
-                <span className="font-bold text-slate-900 text-xl">
-                  10K+
-                </span>
-                <p>Matches</p>
-              </div>
+        <motion.p
+          variants={fadeUp}
+          className="mt-8 text-lg text-slate-600 max-w-xl leading-relaxed"
+        >
+          Join thousands of families who trust RishtaQHub to build
+          meaningful relationships through verified profiles,
+          smart matching, and complete privacy control.
+        </motion.p>
 
-              <div>
-                <span className="font-bold text-slate-900 text-xl">
-                  100%
-                </span>
-                <p>Verified</p>
-              </div>
-            </div>
-          </div>
+        <motion.div
+          variants={fadeUp}
+          className="flex flex-col sm:flex-row gap-4 mt-10"
+        >
+          <Link
+            href="/profile/create"
+            className="bg-[#0F172A] text-white px-8 py-4 rounded-2xl text-center font-semibold hover:opacity-90 transition"
+          >
+            Create Profile
+          </Link>
 
-          {/* Right Search Card */}
-          <div>
-            <div className="bg-white rounded-3xl shadow-xl p-6 border max-w-lg ml-auto">
-              <h3 className="text-3xl font-bold mb-6">
-                Find Your Match
-              </h3>
+          <Link
+            href="/search"
+            className="border-2 border-[#D4AF37] text-[#0F172A] px-8 py-4 rounded-2xl text-center font-semibold hover:bg-[#D4AF37] transition"
+          >
+            Search Profiles
+          </Link>
+        </motion.div>
 
-              <div className="space-y-4">
-                <select className="w-full border rounded-xl p-4">
-                  <option>Looking For</option>
-                  <option>Bride</option>
-                  <option>Groom</option>
-                </select>
 
-                <select className="w-full border rounded-xl p-4">
-                  <option>Age Range</option>
-                  <option>18 - 25</option>
-                  <option>26 - 30</option>
-                  <option>31 - 35</option>
-                </select>
+      </motion.div>
 
-                <select className="w-full border rounded-xl p-4">
-                  <option>Religion</option>
-                  <option>Hindu</option>
-                  <option>Sikh</option>
-                  <option>Muslim</option>
-                  <option>Christian</option>
-                </select>
+      {/* Right Image */}
 
-                <button className="w-full bg-blue-900 text-white py-4 rounded-xl font-semibold hover:bg-blue-800 transition">
-                  Search Profiles
-                </button>
-              </div>
-            </div>
-          </div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.92 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+        className="relative"
+      >
+
+        <div className="absolute -top-6 -left-6 w-40 h-40 bg-[#D4AF37]/10 rounded-full blur-3xl"></div>
+
+        <div className="relative rounded-[40px] overflow-hidden shadow-2xl border border-[#F1F5F9]">
+
+          <Image
+            src="/hero-couple.png"
+            alt="Happy Couple"
+            width={700}
+            height={800}
+            className="w-full h-auto object-cover"
+            priority
+          />
 
         </div>
-      </div>
-    </section>
-  );
+
+        <motion.div
+          animate={{
+            y: [0, -10, 0],
+          }}
+          transition={{
+            duration: 4,
+            repeat: Infinity,
+          }}
+          className="absolute bottom-6 left-6 bg-white rounded-2xl shadow-xl p-2 border"
+        >
+          <p className="text-sm text-slate-500">
+            100% Verified
+          </p>
+
+          <h6 className="text-xl font-bold text-[#0F172A]">
+            Trusted Matrimonial Platform
+          </h6>
+        </motion.div>
+
+      </motion.div>
+
+    </div>
+
+  </div>
+</section>
+
+);
 }
